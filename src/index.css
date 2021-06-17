@@ -1,5 +1,6 @@
 body {
   background-color: offwhite;
+  margin: 0;
 }
 
 .nav{
@@ -9,8 +10,7 @@ body {
   min-height: 10vh;
   background: rgb(218, 226, 230);
   color: white;
-
-
+  margin: 0;
 }
 
 .nav-links{
@@ -20,4 +20,42 @@ body {
   align-items: center;
   list-style: none;
   font: 1em sans-serif;
+}
+
+/* ABOUT_ME */
+.about{
+  display: flex;
+  text-align: center;
+}
+
+#about-me{
+  text-align: center;
+}
+/* SKILLS */
+.skills{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  
+}
+
+/* .social-link{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font: 1em sans-serif;
+} */
+
+/* CONTACTS */
+.contacts{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background:rgb(116, 185, 219)
 }

@@ -13,14 +13,18 @@ function App() {
     <Router>
       <div className="App">
         <Nav/>
-        <About/>
-        <Skills/>
-        <Projects/>
-        <Contacts/>
+
+        <Route path="/about" component={About} />
+        <Route path="/skills" component={Skills} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contacts" component={Contacts} />
 
       </div>
+      <div>
+        <Contacts/>
+      </div>
     </Router>
-
+    
   );
 }
 
