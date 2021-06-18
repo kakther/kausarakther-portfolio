@@ -1,10 +1,11 @@
 import React from 'react'
+import picture from './assets/profile.jpg'
 
 function About() {
     return(
         <div className="about">
-            <p id='picture'>
-            </p>
+            <img id='portfolio-picture' src={picture}></img>
+            
             <p id='about-me'>
                 My passion for technology motivated me to leave the <strong>medical</strong> field for technology world <br/> 
                 and become an expert in <strong>software testing</strong>. I strongly believe I will be a good engineer because <br/> 

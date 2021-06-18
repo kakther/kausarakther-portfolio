@@ -1,3 +1,10 @@
+:root {
+  --seafoam: #6D8C87;
+  --gray: #404040;
+  --magenta: #8F0458;
+  --sage: #ACB3AB;
+}
+
 body {
   background-color: offwhite;
   margin: 0;
@@ -24,12 +31,23 @@ body {
 
 /* ABOUT_ME */
 .about{
+  background-color: gainsboro;
+  box-sizing: border-box;
+  padding: 40px 5px 30px 5px;
   display: flex;
-  text-align: center;
+
 }
 
+#portfolio-picture{
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  /* object-fit: cover; */
+}
 #about-me{
   text-align: center;
+  background-color: gray;
+  color: white;
 }
 /* SKILLS */
 .skills{
