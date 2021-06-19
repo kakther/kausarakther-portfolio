@@ -18,6 +18,7 @@ body {
   background: rgb(218, 226, 230);
   color: white;
   margin: 0;
+  
 }
 
 .nav-links{
@@ -40,22 +41,61 @@ body {
 
 #portfolio-picture{
   border-radius: 50%;
+  border: 5px solid var(--sage);
   height: 400px;
   width: 400px;
-  /* object-fit: cover; */
 }
+
+/* #portfolio-picture:hover{
+  border: 5px solid var(--sage);
+
+
+} */
+
+
 #about-me{
   text-align: center;
-  background-color: gray;
+  /* background-color: gray; */
   color: white;
+}
+
+#pb{
+  text-align: center;
 }
 /* SKILLS */
 .skills{
-  display: flex;
+  /* display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 30px; */
+  padding: 50px;
+  background-color: #ACB3AB;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+.skills-icons ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  overflow-x: auto;
+  padding-left: 0px;
+  
+  
+}
+
+.skills-icons li {
+  list-style: none;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5px 20px;
+  text-align: center;
+  width: 25%;
+  padding: 10px;
+  font-size: 20px;
+  color: whitesmoke
   
 }
 
@@ -67,6 +107,28 @@ body {
   list-style: none;
   font: 1em sans-serif;
 } */
+/* PROJECTS */
+.projects-container{
+  background-color: milkywhite;
+}
+h3{
+  text-align: center;
+}
+/* .projects-ul{
+  display: flex;
+  flex-direction: row;
+
+} */
+
+.projects-ul li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px;
+  width: 80%;
+ 
+
+}
 
 /* CONTACTS */
 .contacts{
@@ -75,5 +137,5 @@ body {
   flex-direction: column;
   align-items: center;
   color: white;
-  background:rgb(116, 185, 219)
+  background:rgb(145, 152, 155)
 }

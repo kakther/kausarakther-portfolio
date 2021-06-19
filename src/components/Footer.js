@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Contacts() {
+function Footer() {
     return(
         <div className="contacts">
             <h3>get in contacts</h3>
@@ -19,4 +19,4 @@ function Contacts() {
 }
 
 
-export default Contacts
+export default Footer
