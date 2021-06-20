@@ -11,7 +11,7 @@ function About() {
             
             <p id='about-me'>
                 <h1>hi!</h1>
-                I'm Kausar, a full stack web developer, QA engineer and biologist.
+                I'm Kausar, a software engineer, full stack developer and QA engineer.
             </p>
            <div>
            

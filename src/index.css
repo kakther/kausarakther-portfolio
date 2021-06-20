@@ -75,10 +75,15 @@ h1, h2, h3, h4{
 #pb{
   display: flex;
   background-color: var(--seafoam);
-  text-align: center;
   color: white;
+  width: 100%;
 }
 
+
+#pb p{
+  margin: 0 auto;
+  width: 500px;
+}
 
 /* SKILLS */
 .skills{
@@ -98,15 +103,15 @@ h1, h2, h3, h4{
   
 }
 
-/* .skills-icons ul{
+.skills-icons{
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  overflow-x: auto;
-  padding-left: 0px;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
   
   
-} */
+  
+}
 
 .skills-icons li{
   display: flex;
@@ -184,4 +189,12 @@ li{
   align-items: center;
   min-height: 2vh;
   flex-direction: row;
+}
+
+.footer-ul{
+  display: flex; 
+  width: 100px;
+  font-size: 30px;
+  justify-content: space-between;
+
 }
