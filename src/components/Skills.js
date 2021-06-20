@@ -43,6 +43,7 @@ function Skills() {
                     <p>mongoDB</p>
                 </li>
                 <li>
+                `   <i class="fab fa-node-js"></i>
                     <p>Node.js</p>
                 </li>
             </ul>

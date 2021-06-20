@@ -48,6 +48,10 @@ body {
 
 }
 
+h3{
+  margin: 0;
+}
+
 h1, h2, h3, h4{
   font-family: "Shippori mincho";
 
@@ -134,18 +138,26 @@ h1, h2, h3, h4{
   list-style: none;
   font: 1em sans-serif;
 } */
+
+
+
 /* PROJECTS */
 .projects-container{
-  background-color: milkywhite;
+  background-color: #f4f4f4;
+  align-items: center;
 }
 h3{
   text-align: center;
 }
-/* .projects-ul{
-  display: flex;
-  flex-direction: row;
 
-} */
+
+.projects-ul{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+
+}
 
 .projects-ul li{
   display: flex;
@@ -157,16 +169,36 @@ h3{
 
 }
 
+
+
 .projects-ul img{
   display: flex;
   flex-direction: row;
   width: 50vmin;
   height: 40vmin;
   min-width: 350px;
-   min-height: 250px;
-   margin: 20px;
-   object-fit: cover;
+  min-height: 250px;
+  margin: 20px;
+  object-fit: cover;
 }
+
+.icon-ul{
+  display: flex; 
+  width: 100px;
+  font-size: 30px;
+  justify-content: space-between;
+  color: white;
+}
+
+/* need help */
+.lag{
+  display: flex; 
+  width: 60%;
+  justify-content: space-between;
+  
+  
+}
+
 
 .fab{
   display: flex;
@@ -193,7 +225,7 @@ li{
 
 .footer-ul{
   display: flex; 
-  width: 100px;
+  width: 80px;
   font-size: 30px;
   justify-content: space-between;
 

@@ -10,7 +10,7 @@ function PB () {
         and become an expert in <strong>software testing</strong>. I strongly believe I will be a good engineer because  
         I am truly passionate about solving complex problems. I am a team player who does not compromise with 
         quality. I am always eager bring best practices into the table. 
-
+        <hr/>
         </p>
    </div>
     )
