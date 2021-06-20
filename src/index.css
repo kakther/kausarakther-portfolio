@@ -18,6 +18,10 @@ body {
   background: rgb(218, 226, 230);
   color: white;
   margin: 0;
+  /* position: fixed;
+  width: 100%;
+  top: 0; */
+
   
 }
 
@@ -28,8 +32,13 @@ body {
   align-items: center;
   list-style: none;
   font: 1em sans-serif;
+  
 }
-
+.nav-links a{
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
 /* ABOUT_ME */
 .about{
   background-color: gainsboro;
@@ -39,6 +48,10 @@ body {
 
 }
 
+h1, h2, h3, h4{
+  font-family: "Shippori mincho";
+
+}
 #portfolio-picture{
   border-radius: 50%;
   border: 5px solid var(--sage);
@@ -60,10 +73,19 @@ body {
 }
 
 #pb{
+  display: flex;
+  background-color: var(--seafoam);
   text-align: center;
+  color: white;
 }
+
+
 /* SKILLS */
 .skills{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
   /* display: flex;
   justify-content: center;
   flex-direction: column;
@@ -76,7 +98,7 @@ body {
   
 }
 
-.skills-icons ul{
+/* .skills-icons ul{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -84,18 +106,18 @@ body {
   padding-left: 0px;
   
   
-}
+} */
 
-.skills-icons li {
+.skills-icons li{
+  display: flex;
   list-style: none;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 5px 20px;
   text-align: center;
   width: 25%;
   padding: 10px;
   font-size: 20px;
-  color: whitesmoke
+  color: whitesmoke;
+  flex-direction: column;
+  
   
 }
 
@@ -130,12 +152,36 @@ h3{
 
 }
 
+.projects-ul img{
+  display: flex;
+  flex-direction: row;
+  width: 50vmin;
+  height: 40vmin;
+  min-width: 350px;
+   min-height: 250px;
+   margin: 20px;
+   object-fit: cover;
+}
+
+.fab{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 /* CONTACTS */
-.contacts{
+.footer{
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
   color: white;
   background:rgb(145, 152, 155)
+}
+
+li{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  min-height: 2vh;
+  flex-direction: row;
 }

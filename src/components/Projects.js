@@ -10,8 +10,8 @@ function Projects() {
                     <a href='https://peaceful-caverns-65474.herokuapp.com/'><img src="https://i.imgur.com/UuKkOJL.png"/>
                     </a>
                     <h4>song-app</h4>
-                    <div>
-                        <a href='https://peaceful-caverns-65474.herokuapp.com/'><i class="fas fa-external-link-square-alt"></i></a>
+                    <div className='icon'>
+                        <a href='https://peaceful-caverns-65474.herokuapp.com/'><i class="fab fa-external-link-square-alt"></i></a>
                         <a href='https://github.com/ryanimd/Song-App'><i class="fab fa-github-square"></i></a>
                     </div>
                     <ul className='lag'>
