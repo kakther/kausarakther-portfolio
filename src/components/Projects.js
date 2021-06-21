@@ -13,7 +13,7 @@ function Projects() {
                     <div className='icon'>
                     <ul className='icon-ul'>
                     <li>
-                        <a href="https://peaceful-caverns-65474.herokuapp.com/"><i class="fab fa-github-square"></i></a>
+                        <a href="https://peaceful-caverns-65474.herokuapp.com/"><i class="fas fa-external-link-square-alt"></i></a>
                     </li>
                     <li >
                         <a href="https://github.com/"><i class="fab fa-github-square"></i></a>
@@ -26,8 +26,12 @@ function Projects() {
                         <li>React</li>
                         <li>Node.js</li>
                         <li>Express</li>
+                        <li>mongoDB</li>
+                
                     </ul>
+
                 </li>
+                
 
                 <li>
                 <a href='https://movie-basement.herokuapp.com/'><img src="https://i.imgur.com/x5h4hGo.png"/>
@@ -36,7 +40,7 @@ function Projects() {
                 <div>
                     <ul className='icon-ul'>
                     <li>
-                        <a href="https://peaceful-caverns-65474.herokuapp.com/"><i class="fab fa-external-link-square-alt"></i></a>
+                        <a href="https://peaceful-caverns-65474.herokuapp.com/"><i class="fas fa-external-link-square-alt"></i></a>
                     </li>
                     <li >
                         <a href="https://github.com/"><i class="fab fa-github-square"></i></a>

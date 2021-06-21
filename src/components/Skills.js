@@ -33,7 +33,14 @@ function Skills() {
                     <p>GitHub</p>
                 </li>
                 <li>
-                    <h2>ex</h2>
+                   <i class="fab fa-node-js"></i>
+                    <p>Node.js</p>
+                </li>
+                <li>
+                <i class="fab fa-bootstrap"></i>
+                    <p>Bootstrap</p>
+                </li>
+                <li>
                     <p>Express.js</p>
                 </li>
                 <li>
@@ -42,10 +49,7 @@ function Skills() {
                 <li>
                     <p>mongoDB</p>
                 </li>
-                <li>
-                `   <i class="fab fa-node-js"></i>
-                    <p>Node.js</p>
-                </li>
+                
             </ul>
 
 

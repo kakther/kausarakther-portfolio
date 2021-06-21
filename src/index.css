@@ -212,7 +212,9 @@ h3{
   flex-direction: column;
   align-items: center;
   color: white;
-  background:rgb(145, 152, 155)
+  background:rgb(145, 152, 155);
+  margin: 0;
+  
 }
 
 li{

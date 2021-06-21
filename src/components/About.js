@@ -13,6 +13,8 @@ function About() {
                 <h1>hi!</h1>
                 I'm Kausar, a software engineer, full stack developer and QA engineer.
             </p>
+            
+                
            <div>
            
            </div>
