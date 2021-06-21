@@ -7,7 +7,7 @@ function About() {
         <div>
         
         <div className="about">
-            <img id='portfolio-picture' src={picture}></img>
+            <img id='portfolio-picture' src={picture} alt='Portfolio Picture'></img>
             
             <p id='about-me'>
                 <h1>hi!</h1>

@@ -7,7 +7,7 @@ function Projects() {
             <hr/>
             <ul className="projects-ul">
                 <li>
-                    <a href='https://peaceful-caverns-65474.herokuapp.com/'><img src="https://i.imgur.com/UuKkOJL.png"/>
+                    <a href='https://peaceful-caverns-65474.herokuapp.com/'><img src="https://i.imgur.com/nrNrig1.png"/>
                     </a>
                     <h4>song-app</h4>
                     <div className='icon'>
@@ -38,6 +38,7 @@ function Projects() {
                 </a>
                 <h4>movie-basement</h4>
                 <div>
+                    <p></p>
                     <ul className='icon-ul'>
                     <li>
                         <a href="https://peaceful-caverns-65474.herokuapp.com/"><i class="fas fa-external-link-square-alt"></i></a>
