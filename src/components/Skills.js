@@ -49,7 +49,15 @@ function Skills() {
                 <li>
                     <p>mongoDB</p>
                 </li>
-                
+                <li>
+                    <p>QTP</p>
+                </li>
+                <li>
+                    <p>ALM</p>
+                </li>
+                <li>
+                    <p>Zira</p>
+                </li>
             </ul>
 
 
