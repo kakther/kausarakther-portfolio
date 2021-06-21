@@ -20,7 +20,7 @@ function Projects() {
                     </li>
                     </ul>
                     </div>
-
+                    <p >We created a full CRUD app that allows the user to add, edit, and delete songs from a playlist.</p>
                     <ul className='lag'>
                         <li>JavaScript</li>
                         <li>React</li>
@@ -38,7 +38,6 @@ function Projects() {
                 </a>
                 <h4>movie-basement</h4>
                 <div>
-                    <p></p>
                     <ul className='icon-ul'>
                     <li>
                         <a href="https://peaceful-caverns-65474.herokuapp.com/"><i class="fas fa-external-link-square-alt"></i></a>
@@ -47,7 +46,10 @@ function Projects() {
                         <a href="https://github.com/"><i class="fab fa-github-square"></i></a>
                     </li>
                     </ul>
+
                 </div>
+                <p>We initially set out to create a full-CRUD app using a React front end and a Django back end. With our mutual love for movies at the center of the project, we have attempted to create a space for fellow movie-lovers to create catalogues of their favorite (and least favorite) films, complete with ratings. In order to make the process of building and maintaining a collection of entries as seamless as possible, we have integrated the OMDB API to allow users to search for data when creating new entries.</p>
+
                 <ul className='lag'>
                     <li>JavaScript</li>
                     <li>React.js</li>

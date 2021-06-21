@@ -181,13 +181,21 @@ h3{
   margin: 20px;
   object-fit: cover;
 }
-
+img{
+  border: 5px solid var(--sage);
+}
 .icon-ul{
   display: flex; 
   width: 100px;
   font-size: 30px;
   justify-content: space-between;
-  color: white;
+  
+  
+  
+}
+
+.paragraph{
+  color: #6D8C87;
 }
 
 /* need help */
@@ -195,10 +203,14 @@ h3{
   display: flex; 
   width: 60%;
   justify-content: space-between;
+  color: #6D8C87;
   
   
 }
 
+h4{
+  color: #6D8C87;
+}
 
 .fab{
   display: flex;
@@ -230,5 +242,18 @@ li{
   width: 80px;
   font-size: 30px;
   justify-content: space-between;
+  
 
+}
+
+.fab{
+  color:#8F0458;
+}
+
+.fas{
+  color:#8F0458;
+}
+
+li a {
+  text-decoration: none;
 }
