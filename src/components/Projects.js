@@ -4,6 +4,7 @@ function Projects() {
     return(
         <div className="projects-container">
             <h3>projects</h3>
+            <p>Current and Previous Projects</p>
             <hr/>
             <ul className="projects-ul">
                 <li>

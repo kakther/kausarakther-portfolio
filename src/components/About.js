@@ -4,7 +4,7 @@ import PB from './Pb'
 
 function About() {
     return(
-        <div>
+        <div className="about-container">
         
         <div className="about">
             <img id='portfolio-picture' src={picture} alt='Portfolio Picture'></img>

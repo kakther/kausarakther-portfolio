@@ -18,6 +18,7 @@ body {
   background: rgb(218, 226, 230);
   color: white;
   margin: 0;
+  font-size: 25px;
   /* position: fixed;
   width: 100%;
   top: 0; */
@@ -52,7 +53,7 @@ h3{
   margin: 0;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, p{
   font-family: "Shippori mincho";
 
 }
@@ -130,6 +131,11 @@ h1, h2, h3, h4{
   
 }
 
+#size {
+  font-size: 50px;
+}
+
+
 /* .social-link{
   width: 40%;
   display: flex;
@@ -146,7 +152,7 @@ h1, h2, h3, h4{
   background-color: #f4f4f4;
   align-items: center;
 }
-h3{
+h3,p{
   text-align: center;
 }
 
@@ -248,6 +254,7 @@ li{
 
 .fab{
   color:#8F0458;
+ 
 }
 
 .fas{
