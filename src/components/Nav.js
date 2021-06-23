@@ -6,6 +6,10 @@ function Nav (){
         <div className="nav">
             <h3>KA</h3>
             <ul className="nav-links">
+                <Link to="/home">
+                <li>home</li>
+                </Link>
+                
                 <Link to="/about">
                 <li>about</li>
                 </Link>

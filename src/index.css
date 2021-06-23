@@ -14,11 +14,12 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 10vh;
+  min-height: 15vh;
   background: rgb(218, 226, 230);
   color: white;
   margin: 0;
   font-size: 25px;
+  width: 100%;
   /* position: fixed;
   width: 100%;
   top: 0; */
@@ -40,13 +41,81 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: white;
 }
+
+
+.home-container{
+  background-image: url('https://miro.medium.com/max/12000/1*pUi3vkj06Vqp_sXeiI-UbQ.jpeg');
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  
+}
+
+.home{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.home h1 {
+  font-size: 65px;
+  letter-spacing: 2px;
+  margin: 0 0 5px;
+}
+
+.home p{
+  margin: 0;
+  font-size: 30px;
+}
 /* ABOUT_ME */
-.about{
-  background-color: gainsboro;
+.about-container{
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+    align-items: center;
+    justify-content: center;
+     width: 100%;
+}
+
+.about{ 
+  display: flex;
   box-sizing: border-box;
   padding: 40px 5px 30px 5px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
 
+.about p{
+  margin: 0 auto;
+  width: 500px;
+} 
+
+#resume-button{
+  border: 3px solid ghostwhite;
+  background: rgb(218, 226, 230);
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  
+}
+
+#resume-button:hover{
+  background-color: offwhite;
+  color: black;
 }
 
 h3{
@@ -59,7 +128,7 @@ h1, h2, h3, h4, p{
 }
 #portfolio-picture{
   border-radius: 50%;
-  border: 5px solid var(--sage);
+  border: 4px solid var(--sage);
   height: 400px;
   width: 400px;
 }
@@ -264,3 +333,21 @@ li{
 li a {
   text-decoration: none;
 }
+
+/* @media only screen and (min-width: 768px) {
+
+
+
+  .about-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 120px;
+      padding-bottom: 35px;
+  }
+
+  .about {
+      width: 40%;
+  }
+} */

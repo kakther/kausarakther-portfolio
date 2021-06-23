@@ -7,6 +7,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import Home from './components/Home'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <div className="App">
         <Nav/>
         <Switch>
-          <Route path="/about" component={About} />
+          <Route path="/home" component={Home}/>
+          <Route path="/about" component={About}/>
           <Route path="/skills" component={Skills} />
           <Route path="/projects" component={Projects} />
           <Route path="/footer" component={Footer} />
