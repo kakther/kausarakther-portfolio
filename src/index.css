@@ -88,20 +88,21 @@ body {
      width: 100%;
 }
 
-.about{ 
+.about { 
   display: flex;
   box-sizing: border-box;
   padding: 40px 5px 30px 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+  width: 500px;
   
   
 }
 
-.about p{
-  margin: 0 auto;
-  width: 500px;
+.about{
+  align-items: center;
 } 
 
 #resume-button{
@@ -110,6 +111,7 @@ body {
   border-radius: 5px;
   color: white;
   font-size: 20px;
+  
   
 }
 
@@ -257,8 +259,14 @@ h3,p{
   object-fit: cover;
 }
 img{
-  border: 5px solid var(--sage);
+  border: 5px solid white;
 }
+
+img:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
 .icon-ul{
   display: flex; 
   width: 100px;
@@ -314,6 +322,7 @@ li{
 
 .footer-ul{
   display: flex; 
+  justify-content: center;
   width: 80px;
   font-size: 30px;
   justify-content: space-between;
