@@ -19,12 +19,8 @@ body {
   color: white;
   margin: 0;
   font-size: 25px;
-  width: 100%;
-  /* position: fixed;
-  width: 100%;
-  top: 0; */
-
-  
+  width: 100%;  
+  border: solid 2px white;
 }
 
 .nav-links{
@@ -33,15 +29,22 @@ body {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  font: 1em sans-serif;
-  
+  font: 1em sans-serif; 
 }
+
 .nav-links a{
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   color: white;
 }
 
+#ka{
+  border-radius: 50%;
+  border: 4px solid white;
+  height: 70px;
+  width: 70px;
+  align-items: center;
+}
 
 .home-container{
   background-image: url('https://miro.medium.com/max/12000/1*pUi3vkj06Vqp_sXeiI-UbQ.jpeg');
@@ -49,8 +52,7 @@ body {
   width: 100vw;
   position: relative;
   background-size: cover;
-  background-position: 50% 50%;
-  
+  background-position: 50% 50%;  
 }
 
 .home{
@@ -64,8 +66,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  
+  flex-direction: column;  
 }
 
 .home h1 {
@@ -85,7 +86,8 @@ body {
     background-color: gainsboro;
     align-items: center;
     justify-content: center;
-     width: 100%;
+    width: 100%;
+    height: 100%;   
 }
 
 .about { 
@@ -96,9 +98,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  width: 500px;
-  
-  
+  width: 500px; 
 }
 
 .about{
@@ -110,9 +110,7 @@ body {
   background: rgb(218, 226, 230);
   border-radius: 5px;
   color: white;
-  font-size: 20px;
-  
-  
+  font-size: 20px; 
 }
 
 #resume-button:hover{
@@ -135,16 +133,15 @@ h1, h2, h3, h4, p{
   width: 400px;
 }
 
-/* #portfolio-picture:hover{
-  border: 5px solid var(--sage);
+#portfolio-picture:hover{
+  border: 4px solid var(--magenta);
 
 
-} */
+}
 
 
 #about-me{
   text-align: center;
-  /* background-color: gray; */
   color: white;
 }
 
@@ -175,18 +172,14 @@ h1, h2, h3, h4, p{
   padding: 50px;
   background-color: #ACB3AB;
   margin: 0;
-  box-sizing: border-box;
-  
+  box-sizing: border-box; 
 }
 
 .skills-icons{
   display: flex;
   width: 80%;
   margin: 0 auto;
-  flex-wrap: wrap;
-  
-  
-  
+  flex-wrap: wrap; 
 }
 
 .skills-icons li{
@@ -197,9 +190,7 @@ h1, h2, h3, h4, p{
   padding: 10px;
   font-size: 20px;
   color: whitesmoke;
-  flex-direction: column;
-  
-  
+  flex-direction: column; 
 }
 
 #size {
@@ -233,7 +224,6 @@ h3,p{
   align-items: center;
   flex-direction: column;
   margin: 0;
-
 }
 
 .projects-ul li{
@@ -242,10 +232,7 @@ h3,p{
   align-items: center;
   padding: 10px 0px;
   width: 80%;
- 
-
 }
-
 
 
 .projects-ul img{
@@ -332,8 +319,11 @@ li{
 
 .fab{
   color:#8F0458;
+  
  
 }
+
+
 
 .fas{
   color:#8F0458;

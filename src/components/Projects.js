@@ -18,7 +18,7 @@ function Projects() {
                         <a href="https://zarafund.herokuapp.com/fund"><i class="fas fa-external-link-square-alt"></i></a>
                     </li>
                     <li >
-                        <a href="https://github.com/"><i class="fab fa-github-square"></i></a>
+                        <a href="https://github.com/kakther/project-two"><i class="fab fa-github-square"></i></a>
                     </li>
                     </ul>
                     </div>
@@ -45,7 +45,7 @@ function Projects() {
                         <a href="https://peaceful-caverns-65474.herokuapp.com/"><i class="fas fa-external-link-square-alt"></i></a>
                     </li>
                     <li >
-                        <a href="https://github.com/"><i class="fab fa-github-square"></i></a>
+                        <a href="https://github.com/ryanimd/Song-App"><i class="fab fa-github-square"></i></a>
                     </li>
                     </ul>
                     </div>
@@ -74,7 +74,7 @@ function Projects() {
                         <a href="https://peaceful-caverns-65474.herokuapp.com/"><i class="fas fa-external-link-square-alt"></i></a>
                     </li>
                     <li >
-                        <a href="https://github.com/"><i class="fab fa-github-square"></i></a>
+                        <a href="https://github.com/lanegrim/movie-basement-front-end"><i class="fab fa-github-square"></i></a>
                     </li>
                     </ul>
 

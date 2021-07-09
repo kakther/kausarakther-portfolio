@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function Nav (){
     return(
         <div className="nav">
-            <h3>KA</h3>
+            <h3 id='ka'>KA</h3>
             <ul className="nav-links">
                 <Link to="/home">
                 <li>home</li>
