@@ -101,9 +101,49 @@ body {
   width: 500px; 
 }
 
+#meDivider{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1300px;
+  color: white;
+}
+
+.aboutMe{
+  background-color: gainsboro;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 1px ghostwhite;
+}
+#h1Me{
+  margin-top: 0;
+}
+
 .about{
   align-items: center;
+  margin: 0;
 } 
+
+.hireMe{
+  background-color: gainsboro;
+}
+
+.hireMe h1{
+  text-align: center;
+  font-size: 3.5em;
+  text-shadow: 2px 2px 1px ghostwhite;
+  margin: 0;
+  padding: 30px;
+}
+
+.pDivider p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% auto 8%;
+  text-align: center;
+  margin: 0;
+  padding:  50px;
+
+}
 
 #resume-button{
   border: 3px solid ghostwhite;
@@ -126,16 +166,22 @@ h1, h2, h3, h4, p{
   font-family: "Shippori mincho";
 
 }
+
+.projects-container h1{
+  font-size: 3.5em;
+  text-shadow: 2px 2px 1px ghostwhite;
+}
+
 #portfolio-picture{
   border-radius: 50%;
   border: 4px solid var(--sage);
   height: 400px;
   width: 400px;
+  padding: 0;
 }
 
 #portfolio-picture:hover{
   border: 4px solid var(--magenta);
-
 
 }
 
@@ -213,11 +259,26 @@ h1, h2, h3, h4, p{
 .projects-container{
   background-color: #f4f4f4;
   align-items: center;
+  margin: 0;
 }
-h3,p{
+h1,p{
   text-align: center;
 }
 
+.projects-container h1{
+  margin: 0;
+}
+.project-divider{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1300px;
+    color: white;
+  
+}
+
+.projectTitle{
+  margin-bottom: 5%;
+}
 
 .projects-ul{
   display: flex;

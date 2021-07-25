@@ -3,15 +3,14 @@ import React from 'react'
 function Projects() {
     return(
         <div className="projects-container">
-            <h3>projects</h3>
-            <p>Current and Previous Projects</p>
-            <hr/>
+            <h1>Current Projects</h1>
+            <hr className="project-divider" />
             <ul className="projects-ul">
 
                 <li>
-                    <a href='https://zarafund.herokuapp.com/fund'><img src="https://i.imgur.com/642ADCD.png"/>
+                    <a href='https://zarafund.herokuapp.com/fund'><img src="https://i.imgur.com/642ADCD.png" alt="Project1"/>
                     </a>
-                    <h4>zarafund</h4>
+                    <h3 className="projectTitle">zarafund</h3>
                     <div className='icon'>
                     <ul className='icon-ul'>
                     <li>
@@ -36,9 +35,9 @@ function Projects() {
 
 
                 <li>
-                    <a href='https://peaceful-caverns-65474.herokuapp.com/'><img src="https://i.imgur.com/nrNrig1.png"/>
+                    <a href='https://peaceful-caverns-65474.herokuapp.com/'><img src="https://i.imgur.com/nrNrig1.png" alt="Project2"/>
                     </a>
-                    <h4>song-app</h4>
+                    <h3 className="projectTitle">song-app</h3>
                     <div className='icon'>
                     <ul className='icon-ul'>
                     <li>
@@ -65,9 +64,9 @@ function Projects() {
                 
 
                 <li>
-                <a href='https://movie-basement.herokuapp.com/'><img src="https://i.imgur.com/x5h4hGo.png"/>
+                <a href='https://movie-basement.herokuapp.com/'><img src="https://i.imgur.com/x5h3hGo.png" alt="Project3"/>
                 </a>
-                <h4>movie-basement</h4>
+                <h3 className="projectTitle">movie-basement</h3>
                 <div>
                     <ul className='icon-ul'>
                     <li>
@@ -93,7 +92,7 @@ function Projects() {
             <li>
                     <a href='https://zarafund.herokuapp.com/'><img src=""/>
                     </a>
-                    <h4>zarafund</h4>
+                    <h3>zarafund</h3>
                     <div>
                         <a href='https://zarafund.herokuapp.com/'><i class="fas fa-external-link-square-alt"></i></a>
                         <a href='https://github.com/kakther/project-two'><i class="fab fa-github-square"></i></a>
