@@ -3,8 +3,8 @@ import React from 'react'
 function Projects() {
     return(
         <div className="projects-container">
-            <h1>Current Projects</h1>
-            <hr className="project-divider" />
+            <h1 id="projectH1">Current Projects</h1>
+            <hr id="project-divider" />
             <ul className="projects-ul">
 
                 <li>

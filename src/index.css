@@ -204,6 +204,24 @@ h1, h2, h3, h4, p{
   width: 500px;
 }
 
+.skillColor{
+  background-color: #ACB3AB;
+}
+
+#skillH1{
+  margin: 0;
+  padding: 50px;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 1px ghostwhite;
+}
+
+#skillDivider{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1300px;
+  color: white;
+  
+}
 /* SKILLS */
 .skills{
   display: flex;
@@ -265,10 +283,13 @@ h1,p{
   text-align: center;
 }
 
-.projects-container h1{
+#projectH1{
   margin: 0;
+  margin-bottom: 30px;
+  font-size: 3.5em;
+  text-shadow: 2px 2px 1px ghostwhite;
 }
-.project-divider{
+#project-divider{
     width: 80%;
     margin: 0 auto;
     max-width: 1300px;
